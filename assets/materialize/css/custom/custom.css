@@ -1,0 +1,76 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+#main{
+	background-color: white;
+}
+main.login-box{
+	height: 100% !important;
+	display: flex;
+	align-items: center;
+}
+.btn-block{
+	display: block;
+	width: 100%;
+}
+.app.validation{
+	display: none;
+}
+.h-100{
+	height: 100% !important;
+}
+.overflow-table{
+	width: 100%;
+	display: block;
+	overflow-x: scroll;
+}
+.overflow-table::-webkit-scrollbar{
+	width: 0px;
+	height: 0px;
+	display: none;
+}
+.sidebar-collapse, .sidebar-collapse:focus{
+	background-color: unset;
+	box-shadow: none;
+}
+.py-2{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.py-1{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.spin{
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
